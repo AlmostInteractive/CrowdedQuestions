@@ -1,2 +1,2 @@
 # CrowdedQuestions
-NodeJS API and game server for CrowdedQuestions.com
+NodeJS + Express API and game server for CrowdedQuestions.com
