@@ -1,0 +1,12 @@
+div#questionFrame1
+    div#questionFrame2=question
+
+div#timer.hidden Next Round Starts In
+    span#secondsLeft
+
+h1 The Results:
+
+div#guesses
+each struct in answers
+    div.guess(class=struct.guess ? 'correct' : 'incorrect') "#{struct.answer}" -#{struct.player}
+

@@ -1,0 +1,4 @@
+{
+  "watch": true,
+  "script": "./bin/www"
+}

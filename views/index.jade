@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  div
+    h1='Local Play'
+    div
+      p Questions will be displayed on this device. Your friends can play using pens and paper, or just have fun answering aloud.
+      a.sprite_button.play(href='/local')
+
+    h1='Multi Play'
+    div
+      p You and your friends can play using only their internet-connected devices.
+      a.sprite_button.play(href='/online')

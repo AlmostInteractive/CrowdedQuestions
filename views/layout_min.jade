@@ -1,0 +1,61 @@
+doctype html
+html
+    head
+        title= title
+        meta(name='keywords', content='questions,game,board game,loaded questions,loaded questions printable,printable,print,print loaded questions,free,loaded questions free')
+        meta(name='description', content='The completely free, completely crowdsourced get-to-know-you game.')
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        meta(charset='utf-8')
+
+        link(rel='apple-touch-icon', sizes='57x57', href='https://crowdedquestions.com/images/icons/apple-icon-57x57.png')
+        link(rel='apple-touch-icon', sizes='60x60', href='https://crowdedquestions.com/images/icons/apple-icon-60x60.png')
+        link(rel='apple-touch-icon', sizes='72x72', href='https://crowdedquestions.com/images/icons/apple-icon-72x72.png')
+        link(rel='apple-touch-icon', sizes='76x76', href='https://crowdedquestions.com/images/icons/apple-icon-76x76.png')
+        link(rel='apple-touch-icon', sizes='114x114', href='https://crowdedquestions.com/images/icons/apple-icon-114x114.png')
+        link(rel='apple-touch-icon', sizes='120x120', href='https://crowdedquestions.com/images/icons/apple-icon-120x120.png')
+        link(rel='apple-touch-icon', sizes='144x144', href='https://crowdedquestions.com/images/icons/apple-icon-144x144.png')
+        link(rel='apple-touch-icon', sizes='152x152', href='https://crowdedquestions.com/images/icons/apple-icon-152x152.png')
+        link(rel='apple-touch-icon', sizes='180x180', href='https://crowdedquestions.com/images/icons/apple-icon-180x180.png')
+        link(rel='icon', type='image/png', sizes='192x192', href='https://crowdedquestions.com/images/icons/android-icon-192x192.png')
+        link(rel='icon', type='image/png', sizes='32x32', href='https://crowdedquestions.com/images/icons/favicon-32x32.png')
+        link(rel='icon', type='image/png', sizes='96x96', href='https://crowdedquestions.com/images/icons/favicon-96x96.png')
+        link(rel='icon', type='image/png', sizes='16x16', href='https://crowdedquestions.com/images/icons/favicon-16x16.png')
+        link(rel='manifest', href='https://crowdedquestions.com/manifest.json')
+        meta(name='msapplication-TileColor', content='#ffffff')
+        meta(name='msapplication-TileImage', content='https://crowdedquestions.com/images/icons/ms-icon-144x144.png')
+        meta(name='theme-color', content='#ffffff')
+
+        link(rel='stylesheet', href='https://fonts.googleapis.com/css?family=Finger+Paint|Kite+One')
+
+        link(rel='stylesheet', type='text/css', media='screen', href='https://crowdedquestions.com/css/jquery-ui.css')
+        link(rel='stylesheet', type='text/css', media='screen', href='https://crowdedquestions.com/css/tablesort.css')
+        link(rel='stylesheet', type='text/css', media='screen', href='https://crowdedquestions.com/css/main.css')
+
+        script(type='text/javascript', src='/javascripts/vendor/jquery.min.js')
+        script(type='text/javascript', src='/javascripts/vendor/jquery-ui.min.js')
+
+    body
+        ul#toc
+            li
+                a(href='https://crowdedquestions.com') « Home
+            li
+                a.active(href='https://play.crowdedquestions.com') Play!
+            li
+                a(href='https://crowdedquestions.com/quickprint') Quick Print
+            li
+                a(href='https://crowdedquestions.com/customprint') Custom Print
+            li
+                a(href='https://crowdedquestions.com/add') Add Question
+            li
+                a(href='https://crowdedquestions.com/questions') Questions Collection
+            li
+                a(href='https://crowdedquestions.com/donate') Donate!
+
+        ul#toc_mini
+            li
+                a(href='https://crowdedquestions.com') « Home
+            li
+                a(href='https://play.crowdedquestions.com') Play!
+
+        div(id='main')
+            block content

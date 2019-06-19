@@ -1,0 +1,15 @@
+extends layout
+
+block content
+    script.
+        $(function() {
+            $('#next').click((e) => {
+                $.get('/next', (data) => {
+                    $('#questionFrame2').text(data);
+                })
+            });
+        });
+
+    div#questionFrame1
+        div#questionFrame2= question
+    button#next.sprite_button

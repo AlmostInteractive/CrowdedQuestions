@@ -1,0 +1,10 @@
+extends layout
+
+block content
+    div.textCenter
+        form(action='/game', method='post')
+            input.uppercase(name='gameId', type='text', maxlength='4', autocomplete='off', placeholder='Game ID')
+            if error
+                br
+                div.error=error
+            button#join.sprite_button

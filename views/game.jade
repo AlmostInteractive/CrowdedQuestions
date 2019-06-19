@@ -1,0 +1,10 @@
+extends layout_min
+
+block content
+    script(src='/javascripts/vendor/socket.io.js')
+    script(src='/javascripts/Client.js')
+
+    div#gameId ID:&nbsp;
+        span#gameIdValue.uppercase
+    div#notification
+    div#game

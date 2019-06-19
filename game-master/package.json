@@ -1,0 +1,11 @@
+{
+  "dependencies": {},
+  "deprecated": false,
+  "description": "Controls the game rooms and flow",
+  "engines": {
+    "node": ">=8"
+  },
+  "main": "main.js",
+  "name": "game-master",
+  "version": "1.0.0"
+}

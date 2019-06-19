@@ -1,0 +1,8 @@
+extends layout
+
+block content
+    p.textCenter Start a new game.
+        a#start.sprite_button(href='/host')
+    br
+    p.textCenter Join an existing game.
+        a#join.sprite_button(href='/game')
